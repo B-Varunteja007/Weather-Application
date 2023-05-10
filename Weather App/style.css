@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,600;1,400;1,500;1,700&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -Webkit-Font-Smoothing: Antialiased;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(41, 39, 39);
+    font-family: 'Open Sans',sans-serif;
+    background-image:url(./weather_0.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background: rgba(0, 0, 0, 884);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button{
+    margin: 1rem;
+    border-radius: 50%;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    outline: none;
+    background-color: rgba(92,88,88,0.664);
+}
+.search button:hover{
+    background-Color: rgb(92, 88, 88);
+    cursor: Pointer;
+    transition: 0.2s ease-in-out;
+}
+input.Search-bar{
+    border: none;
+    outline: none;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: rgba(92,88,88,.664);
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+
+}
+.Description{
+    Text-Transform: Capitalize;
+}
